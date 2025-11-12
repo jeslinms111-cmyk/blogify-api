@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+   "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeslinms111-cmyk/blogify-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeslinms111-cmyk/blogify-api/issues"
+  },
+  "homepage": "https://github.com/jeslinms111-cmyk/blogify-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
