@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 // Import the router
-const postRouter = require('./routes/posts.routes');
+const postRouter = require('./routers/posts.routes');
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Blogify API!');
